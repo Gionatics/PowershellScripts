@@ -1,4 +1,4 @@
-## Script to generate list of orphaned users in MSSQL database, can be embedded in SQL Agent job: powershell.exe -File "C:\SQLPowershellScripts\Powershell\check_SQL_Orphaned_Users_v1.ps1"
+## Script to generate list of orphaned users in MSSQL database, can be embedded in SQL Agent job: powershell.exe -File "C:\SQLPowershellScripts\Powershell\check_SQL_Orphaned_Users.ps1"
 
 [reflection.assembly]::LoadWithPartialName("Microsoft.SqlServer.Smo") | out-null
 
