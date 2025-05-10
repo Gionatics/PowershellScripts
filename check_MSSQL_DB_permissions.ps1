@@ -1,4 +1,4 @@
-## Script to generate list of db user permissions with high privileges. Can be integrated in SQL Agent Job: powershell.exe -File "C:\SQLPowershellScripts\Powershell\check_SQL_DB_Permissions_v1.ps1"
+## Script to generate list of db user permissions with high privileges. Can be integrated in SQL Agent Job: powershell.exe -File "C:\SQLPowershellScripts\Powershell\check_SQL_DB_Permissions.ps1"
 
 [reflection.assembly]::LoadWithPartialName("Microsoft.SqlServer.Smo") | out-null
 
